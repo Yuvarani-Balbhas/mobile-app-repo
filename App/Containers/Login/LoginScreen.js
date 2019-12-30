@@ -66,9 +66,8 @@ class LoginScreen extends React.Component {
 
       <Logo />
 
-      <Header>Welcome to Red Cross.</Header>
-
-      <Text style={Style.label}>Email Id</Text>
+      <Header>redcross</Header>
+      <Text style={Style.label}>Email </Text>
       <TextInput
         returnKeyType="next"
         value={this.state.email}

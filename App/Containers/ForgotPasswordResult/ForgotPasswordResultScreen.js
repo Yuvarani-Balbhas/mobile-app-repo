@@ -29,7 +29,7 @@ class ForgotPasswordResultScreen extends React.Component {
   
         <Logo />
   
-        <Header>Welcome to Red Cross.</Header>
+        <Header>redcross.</Header>
         <Text style={Style.label}>{this.props.initialData.payload}</Text>
   
       </Background>
